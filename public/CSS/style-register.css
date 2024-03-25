@@ -1,0 +1,126 @@
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    border: none;
+    height: 5vh;
+    font-size: 15px;
+    text-indent: 12px;
+    background-color: #010409;
+    border: 1px solid rgb(48,54,61);
+    color: #cccccc;
+    width: 25vw;
+}
+.container{
+    position: absolute;
+    top: 16%;
+    left: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(13,17,23);
+    width: 80vw;
+    height: 80vh;
+    border-radius: 20px;
+    font-size: 95%;
+    font-family: Arial, sans-serif;
+    margin: 0%;
+    font-weight: bold ; 
+    color: #ffffff;
+    border: 1.5px solid rgb(48,54,61);
+}
+.bg-h1-register{
+    background-color: #161b22;
+    width: 80vw;
+    position: relative; 
+    top: -10%;
+    height: 11vh;
+    border-radius: 20px;
+    border-bottom-left-radius: 0; 
+    border-bottom-right-radius: 0; 
+    border: 1.5px solid rgb(48,54,61);
+    border-bottom: none;
+    
+}
+.mt-5{
+    text-align: center;
+    position: relative;
+    top: -115%;
+    font-size: 55px;
+    width: 5vw;
+    left: 40%;
+}
+#butao-register{
+    width: 12vw;
+    height: 5vh;
+    color: rgb(132,141,151);
+    border: 1px solid rgb(57, 64, 71);
+    background-color: rgb(33,38,45);
+    }
+    #alert-erro {
+        width: 30vw;
+        font-size: 100%;
+        height: 6vh;
+        text-align: center;
+        background-color: rgb(33,38,45);
+        color: #f85149;
+        border: none;
+    }
+    #butao-log-out{
+        width: 12vw;
+        height: 5vh;
+        color: rgb(132,141,151);
+        border: 1px solid rgb(57, 64, 71);
+        background-color: rgb(33,38,45);
+        position: relative;
+        bottom: 100%;
+        left: 54%;
+    }
+    #butao-register:hover,
+    #butao-log-out:hover{
+        background-color: #282d35;
+        color: #cad0d6;
+        transition: background-color 1s ease;
+        transition: color 0.5s ease;
+    }
+    body{
+        background-color: rgb(13,17,23);
+    }
+    #butao-voltar.close-icon {
+        width: 40px;
+        height: 50px;
+        position: relative;
+        cursor: pointer;
+        border: none;
+        padding: 0;
+        background: none;
+        top: 25%;
+        left: 2.5%;
+    }
+    
+    #butao-voltar.close-icon::before,
+    #butao-voltar.close-icon::after {
+        content: '';
+        position: absolute;
+        width: 5px;
+        height: 50px;
+        background-color: rgb(57, 64, 71);
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 20px;
+    }
+    
+    #butao-voltar.close-icon::before {
+        transform: rotate(45deg);
+    }
+    
+    #butao-voltar.close-icon::after {
+        transform: rotate(-45deg);
+    }
+    
+    #butao-voltar.close-icon:hover::before,
+    #butao-voltar.close-icon:hover::after {
+    background-color: #53565c;
+    transition: background-color 1s ease;
+    transition: color 0.5s ease;
+    }

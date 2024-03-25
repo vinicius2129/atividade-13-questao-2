@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(13,17,23);
+}
+
+.barra-superior{
+    background-color: rgb(1,4,9);
+    position: absolute;
+    top: 0%;
+    bottom: 90%;
+    left: 0%;
+    right: 0%;
+}
+h1{
+    font-family: Arial, sans-serif;
+    color: rgb(201,209,217);
+    position: relative;
+    top: 15%;
+    left: 1%;
+    font-size: 45px;
+    width: 50%;
+}
+
+#Sair-da-Conta{
+    position: absolute;
+    right: 2.5%;
+    top: 25%;
+    color: rgb(132,141,151);
+    border: 1px solid rgb(48,54,61);
+    background-color: rgb(1,4,9);
+}
+p{
+    position: absolute;
+    left: 3%;
+    top: 15%;
+    color: rgb(132,141,151);
+}
+
+#novo-usuario{
+    position: absolute;
+    left: 3%;
+    top: 20%;
+    background-color: #21262d;
+    color: #c9d1d9;
+    border: none;
+}
+#novo-usuario:hover{
+    background-color: #2a2f36;
+    color: #bfc6cc;
+    transition: background-color 1s ease;
+    transition: color 0.5s ease;
+}
+#Sair-da-Conta:hover{
+    background-color: rgb(12, 16, 22);
+    color: #bfc6cc;
+    transition: background-color 1s ease;
+    transition: color 0.5s ease;
+}
