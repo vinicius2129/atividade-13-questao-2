@@ -30,7 +30,7 @@ input[type="text"] {
 }
 .bg-h1-register{
     background-color: #161b22;
-    width: 80vw;
+    width: 102%;
     position: relative; 
     top: -10%;
     height: 11vh;
@@ -44,7 +44,7 @@ input[type="text"] {
 .mt-5{
     text-align: center;
     position: relative;
-    top: -115%;
+    top: -80%;
     font-size: 55px;
     width: 5vw;
     left: 40%;
