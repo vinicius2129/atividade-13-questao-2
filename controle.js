@@ -2,15 +2,16 @@
 const modelo = require('./modelo');
 
 function logarUsuario(req, res) {
-  const { email, password } = req.body;
   // Verificar se o usuário existe no "banco de dados"
-  const user = modelo.acharUsuario(email, password);
-  if (user) {
+  const { email, password } = req.body;
+  modelo.acharUsuario(email, password, (err, result) => {
+    if (result) {
       req.session.login = email;
       res.redirect('/login/success'); // Redirecionar para a página de sucesso
-  } else {
+    } else {
       res.redirect('/login?error=true'); // Redirecionar de volta para a página de login com mensagem de erro
-  }
+    }
+  });
 }
 
 function cadastrarUsuario(req, res) {
